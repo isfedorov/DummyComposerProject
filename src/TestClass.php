@@ -11,5 +11,7 @@ namespace Composer\Testing;
 
 class TestClass
 {
+    public function __construct(){
 
+    }
 }
