@@ -1,4 +1,12 @@
 {
   "name": "ifedorov_testing/dummy_testing",
-  "description": "Dummy Project for Testing"
+  "description": "Dummy Project for Testing",
+  "autoload": {
+    "psr-4": {
+      "DummyProject\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2"
+  }
 }
